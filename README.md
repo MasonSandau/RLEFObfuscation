@@ -18,3 +18,5 @@ Checks inside of each function for authentication would be necessary for safty p
 Execution time is greatly increased as the randomizaion of it means that it is an unknown time it takes to execute all functions in order. 
 
 Vulnerablities mainly lie in the execution order list, if an attacker can rewrite the list that means it could easily skip authentication and control the flow via that list. 
+
+Limitations in input for functions as unless each functions have the same input it doesn't work.
